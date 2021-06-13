@@ -1,0 +1,23 @@
+{
+  "name": "nyt_quick_news",
+  "version": "1.0.0",
+  "description": "quick news website nyt api",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js -e js,css,html",
+    "start": "node src/app.js"
+  },
+  "author": "ali6802",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

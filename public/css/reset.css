@@ -1,0 +1,93 @@
+/*CSS Reset for materialize version 1.0.0 [update: 16/04/2021]*/
+html {
+   font-size: 62.5%;
+}
+/*Individual text elements*/
+h1, h2, h3, h4, h5, h6, p {
+   margin: 0;
+   padding: 0;
+}
+h1 { font-size: 4rem;}
+h2 { font-size: 3.2rem;}
+h3 { font-size: 2.8rem;}
+h4 { font-size: 2.4rem;}
+h5 { font-size: 2.0rem;}
+h6 { font-size: 1.8rem;}
+p { font-size: 1.6rem;}
+/*grid elements*/
+.row { 
+   margin: 0;  
+}
+.col {
+   padding: 0!important;
+}
+.col .container {
+   display: flex;
+   flex-direction: column;   
+}
+/*center children element*/
+.center-children {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+/*=====================*/
+/*Input field*/
+.input-field {
+   margin: 0!important;
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+.input-field input[type=text] {
+   margin: 0!important;
+   font-size: 1.6rem!important;
+   color: black !important;
+   border-bottom-color:grey!important;
+}
+.input-field input[type=text]:focus{
+   border-bottom: 0.1rem solid #696969 !important;
+   box-shadow: none!important;
+   color: #000;
+}
+.search-button {
+    height: inherit;
+    width: 2.8rem;
+    background-color: inherit;
+    margin-left:0.4rem;  
+}
+.search-button:hover {
+    cursor: pointer;
+}
+.search-button i {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+/*input field text*/
+.input-field-shell {
+   display: flex;   
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(230, 230, 230);
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-left: 1.5rem;
+   padding-right: 1.5rem;
+   border-radius: 2.5rem;
+   height: 4rem;
+   width: 50rem;
+   margin-left: 2rem;
+   margin-right: 2rem;
+}
+.input-field-shell .input-field {
+   width: 95%!important;
+   height: 100%!important;
+}
+/**/
+.divider {
+   margin:0!important;
+   background-color: black;   
+}
+ul {
+   margin: 0;
+}
